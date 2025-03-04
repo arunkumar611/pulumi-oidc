@@ -23,7 +23,7 @@ jobs:
 
       - uses: pulumi/auth-actions@v1
         with:
-          organization: organization
+          organization: arun-test
           requested-token-type: urn:pulumi:token-type:access_token:organization
 
       - name: Login to Pulumi
