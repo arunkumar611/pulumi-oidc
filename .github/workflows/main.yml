@@ -32,3 +32,4 @@ jobs:
           PULUMI_ACCESS_TOKEN: ${{ env.PULUMI_ACCESS_TOKEN }}
 
       - name: List all Pulumi ESC Environments
+        run: pulumi env ls
