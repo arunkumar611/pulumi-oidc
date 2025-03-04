@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install pulumi
-        uses: pulumi/actions@v4
+        uses: pulumi/actions@v5
 
       - name: Install deps
         run: yarn
